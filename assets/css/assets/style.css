@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Open Sans', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
@@ -34,8 +34,8 @@ body {
     height: 200px;
     width: 550px;
     background: transparent;
-    border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
     animation:degrade-animado 5s infinite alternate;
 }
 .relogio div{
@@ -49,21 +49,22 @@ body {
     background: rgba(5,5,5,0.9);
     box-shadow: 5px 5px 15px rgba(0,0,0, .7);
     border-radius: 7px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     
 }
 
 .relogio span{
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 80px;
 
 }
 .relogio span.tempo{
-    font-size: 10px;
+    font-size: 12.5px;
 }
   img{
     display:flex;
     align-items:-moz-popup;
-
-  }
- 
+ }
+ .audio{
+    
+ }
